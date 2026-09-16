@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - M Farros Naufal Zaika</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+  :root {
+    --ink: #1c1d1b;
+    --paper: #fbfaf7;
+    --line: #d8d5cc;
+    --accent: #3a5a40;
+    --muted: #5f5d54;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: #e9e7e0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--ink);
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+
+  .page {
+    background: var(--paper);
+    width: 100%;
+    max-width: 760px;
+    padding: 56px 52px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 18px;
+    margin-bottom: 28px;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .name-block {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .photo {
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--ink);
+    flex-shrink: 0;
+  }
+
+  h1 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.01em;
+  }
+
+  .role {
+    font-size: 15px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .contact {
+    text-align: right;
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  section { margin-bottom: 26px; }
+
+  h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  p.summary {
+    font-size: 14.5px;
+    line-height: 1.7;
+    color: var(--ink);
+    margin: 0;
+    max-width: 62ch;
+  }
+
+  .entry { margin-bottom: 16px; }
+  .entry:last-child { margin-bottom: 0; }
+
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .entry-title {
+    font-weight: 600;
+    font-size: 14.5px;
+  }
+
+  .entry-place {
+    font-size: 13.5px;
+    color: var(--muted);
+  }
+
+  .entry-date {
+    font-size: 12.5px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .entry ul {
+    margin: 6px 0 0 0;
+    padding-left: 18px;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+
+  .entry ul li { margin-bottom: 3px; }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+  }
+
+  .skills span {
+    font-size: 13px;
+    padding: 4px 12px;
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 32px 22px; }
+    header { flex-direction: column; align-items: flex-start; }
+    .contact { text-align: left; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+
+  @media print {
+    body { background: var(--paper); padding: 0; }
+    .page { box-shadow: none; max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <div class="name-block">
+        <img class="photo" src="data:image/jpeg;base64,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" alt="Foto profil">
+        <div>
+          <h1>M Farros Naufal Zaika</h1>
+          <div class="role">Siswa SMK &mdash; Teknik Jaringan &amp; IT Support</div>
+        </div>
+      </div>
+      <div class="contact">
+        farros_cyz@gmail.com<br>
+        0857-8748-2478<br>
+        Kota Balikpapan, Indonesia<br>
+        linkedin.com/in/cyz
+      </div>
+    </header>
+
+    <section>
+      <h2>Ringkasan</h2>
+      <p class="summary">
+        Siswa SMK jurusan IT dengan pengalaman magang sebagai IT support, menangani troubleshooting jaringan, perawatan CCTV, setup AV untuk acara, dan servis PC. Terbiasa bekerja langsung di lapangan dan menyelesaikan masalah teknis secara mandiri maupun tim.
+      </p>
+    </section>
+
+    <section>
+      <h2>Pengalaman PKL</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">IT Support Intern &mdash; Astara Hotel Balikpapan</span>
+          <span class="entry-date">2025 &ndash; 2026</span>
+        </div>
+        <div class="entry-place">Balikpapan</div>
+        <ul>
+          <li>Melakukan troubleshooting jaringan ketika terjadi gangguan koneksi pada perangkat dan area kerja.</li>
+          <li>Membantu melakukan pengecekan dan perawatan perangkat jaringan serta memastikan perangkat dapat digunakan dengan baik.</li>
+          <li>Melakukan instalasi, pengecekan, dan perawatan komputer serta printer.</li>
+          <li>Menangani masalah pada PC, seperti pengecekan hardware, kabel, koneksi, dan perangkat pendukung.</li>
+          <li>Melakukan pengecekan, perawatan, dan reposisi CCTV sesuai kebutuhan di area kerja.</li>
+          <li>Membantu menyiapkan perangkat audio-visual seperti proyektor, layar, speaker, dan perangkat pendukung untuk kegiatan atau acara.</li>
+          <li>Membantu menangani kebutuhan teknis dari pengguna ketika terdapat masalah pada perangkat IT.</li>
+          <li>Bekerja sama dengan tim dalam menyelesaikan masalah teknis dan melakukan pekerjaan di beberapa area gedung.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="two-col">
+      <section>
+        <h2>Pendidikan</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">SMK &mdash; Teknik Jaringan Komputer</span>
+          </div>
+          <div class="entry-place">SMK Airlangga Balikpapan</div>
+          <div class="entry-date">2024 &ndash; 2027</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Keahlian</h2>
+        <div class="skills">
+          <span>Troubleshooting Jaringan</span>
+          <span>Instalasi PC</span>
+          <span>CCTV</span>
+          <span>AV Setup</span>
+          <span>Microsoft Office</span>
+        </div>
+      </section>
+    </div>
+
+  </div>
+</body>
+</html>
